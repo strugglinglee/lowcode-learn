@@ -1,18 +1,20 @@
 # lowcode-learn
+低代码学习项目
 
-This template should help get you started developing with Vue 3 in Vite.
+## 项目结构
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+```
+├── src
+│   ├── common                // 存放公共组件
+│   ├── components            // 存放物料组件
+│   ├── contexts              // 存放...
+│   ├── layouts               // 布局
+│   │   ├── header            // 头
+│   │   ├── material          // 物料区
+│   │   ├── setting           // 配置区
+│   │   └── renderer          // 中间渲染区
+│   └── utils                 // 存放工具方法
+```
 
 ## Project Setup
 
